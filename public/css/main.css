@@ -42,6 +42,7 @@ li a::before{
     overflow: hidden;
     transition: .5s;
     border-bottom: 3px solid orange;
+
 }
 li a:hover::before{
     width: 100%;
@@ -50,9 +51,7 @@ li a:hover {
     color: #fff;
     text-decoration: none;
 }
-h1 a:hover{
-    text-decoration: none;
-}
+
 @media(max-width:700px){
     nav{
         display: block;
